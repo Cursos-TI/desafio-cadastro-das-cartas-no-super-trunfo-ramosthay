@@ -1,22 +1,65 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+//Desafio Super Trunfo - Novato
+//Teste Thaynara
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+//Classificação das Cartas 1 e 2 
+int main(){  // Carta 1 e 2
+    char estado = 'A';
+    char estado2 = 'B';
 
-    return 0;
+    char codigo[5] = "A01";
+    char codigo2[5] = "B01";
+
+    char nome[50] = "Fortaleza";
+    char nome2[50] = "Salvador";
+
+    float area = 313.8;
+    float area2 = 693.8;
+
+    float pib = 73.436;
+    float pib2 = 62.954;
+
+    int pontosturisticos = 45;
+    int pontosturisticos2 = 65;
+
+    int populacao = 2429;
+    int populacao2 = 2418;
+
+    //Códigos da Carta 1
+    printf("Carta 1\n");
+    printf("Estado: %c\n", estado);
+
+    printf("Nome da Cidade: %s\n", nome);
+
+    printf("Código: %s\n", codigo);
+
+    printf("Área em km²: %.2fkm²\n", area);
+
+    printf("PIB: %.3f milhões\n", pib);
+
+    printf("População: %d\n", populacao);
+
+    printf("Pontos turísticos: %d\n", pontosturisticos);
+
+    printf("\n");
+
+    //Códigos da Carta 2
+    printf("Carta 2\n");
+    printf("Estado: %c\n", estado2);
+
+    printf("Nome da Cidade: %s\n", nome2);
+
+    printf("Código: %s\n", codigo2);
+
+    printf("Área em km²: %.2fkm²\n", area2);
+
+    printf("PIB: %.3f milhões\n", pib2);
+
+    printf("População: %d \n", populacao2);
+
+    printf("Pontos túristicos: %d\n", pontosturisticos2);
+
+ return 0;
+ 
 }
