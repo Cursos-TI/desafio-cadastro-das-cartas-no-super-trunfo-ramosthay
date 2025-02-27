@@ -29,8 +29,8 @@ int main(){  // Carta 1 e 2
     float densidadepopulacional = populacao / area;
     float densidadepopulacional2 = populacao2 / area2;
 
-    float pibpercapita = populacao / area;
-    float pibpercapita2 = pib2 / populacao2;
+    float pibpercapita = populacao / pib2;
+    float pibpercapita2 = populacao2 / pib2;
     
 
     //Códigos da Carta 1
