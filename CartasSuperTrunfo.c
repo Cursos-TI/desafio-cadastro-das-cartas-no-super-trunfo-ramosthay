@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Desafio Super Trunfo - Novato
+//Desafio Super Trunfo - Aventureiro
 //Teste Thaynara
 
 //Classificação das Cartas 1 e 2 
