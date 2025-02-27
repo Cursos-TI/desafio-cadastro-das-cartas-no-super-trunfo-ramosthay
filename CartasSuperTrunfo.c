@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Desafio Super Trunfo - Novato
+//Desafio Super Trunfo - Aventureiro
 //Teste Thaynara
 
 //Classificação das Cartas 1 e 2 
@@ -11,70 +11,72 @@ int main(){  // Carta 1 e 2
     char codigo[5] = "A01";
     char codigo2[5] = "B01";
 
-    char nome[9] = "Fortaleza";
+    char nome[12] = "Fortaleza";
     char nome2[9] = "Salvador";
 
     float area = 313.8;
     float area2 = 693.8;
 
-    float pib = 73.436;
+    float pib = 73.400;
     float pib2 = 62.954;
 
-    int pontos turisticos = 45;
-    int pontos turisticos2 = 65;
+    int pontosturisticos = 45;
+    int pontosturisticos2 = 65;
 
-    float populacao = 2429;
+    float populacao = 2430;
     float populacao2 = 2418;
 
-    float densidade populacional = populacao / area;
-    float densidade populacional2 = populacao2 / area2;
+    float densidadepopulacional = populacao / area;
+    float densidadepopulacional2 = populacao2 / area2;
 
-    float pib per capita = pib / populacao;
-    float pib per capita2 = pib2 / populacao2;
+    float pibpercapita = populacao / area;
+    float pibpercapita2 = pib2 / populacao2;
     
 
     //Códigos da Carta 1
     printf("Carta 1\n");
-    printf("Estado: %c\n", estado);
 
-    printf("Nome da Cidade: %s\n", nome);
+    printf("Estado: %c\n", estado);
 
     printf("Código: %s\n", codigo);
 
-    printf("Área em km²: %.2fkm²\n", area);
+    printf("Nome da Cidade: %s\n", nome);
 
-    printf("PIB: %.3f milhões\n", pib);
+    printf("População: %.2f milhões\n", populacao);
 
-    printf("População: %d\f", populacao);
+    printf("Área: %.2fkm²\n", area);
 
-    printf("Pontos turísticos: %d\n", pontos turisticos);
+    printf("PIB: %.2f bilhões de reais\n", pib);
 
-    printf("Densidade Populacional: %f\n", densidade populacional);
+    printf("Pontos turísticos: %d\n", pontosturisticos);
 
-    printf("PIB per capita: %f\n", pib per capita);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional);
+
+    printf("PIB per capita: %.2f mil reais\n", pibpercapita);
 
     printf("\n");
 
     //Códigos da Carta 2
     printf("Carta 2\n");
-    printf("Estado: %c\n", estado2);
 
-    printf("Nome da Cidade: %s\n", nome2);
+    printf("Estado: %c\n", estado2);
 
     printf("Código: %s\n", codigo2);
 
-    printf("Área em km²: %.2fkm²\n", area2);
+    printf("Nome da Cidade: %s\n", nome2);
 
-    printf("PIB: %.3f milhões\n", pib2);
+    printf("População: %.2f milhões\n", populacao2);
 
-    printf("População: %f \n", populacao2);
+    printf("Área: %.2fkm²\n", area2);
 
-    printf("Pontos túristicos: %d\n", pontosturisticos2);
+    printf("PIB: %.2f bilhões de reais\n", pib2);
 
-    printf("Densidade Populacional: %f\n", densidade populacional2);
+    printf("Pontos turísticos: %d\n", pontosturisticos2);
 
-    printf("PIB per capita: %f\n", pib per capita2);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional2);
 
- return 0;
- 
-}
+    printf("PIB per capita: %.2f mil reais\n", pibpercapita2);
+
+    printf("\n");
+
+    
